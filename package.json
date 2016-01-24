@@ -1,11 +1,12 @@
 {
   "name": "tessel-nfl",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A script for the tessel that uses the NFL's ScoreScript JSON feed to check the scores for a specific game, and trigger an attached relay on a score.",
   "main": "index.js",
   "dependencies": {
     "relay-mono": "^0.1.2",
-    "tessel": "^0.3.19"
+    "tessel": "0.3.22",
+    "twitter": "^1.2.5"
   },
   "devDependencies": {},
   "author": "Mark Shust",
